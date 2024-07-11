@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mcd/screens/mobile_screen.dart';
-import 'package:mcd/screens/tablet_screen.dart';
+import 'package:mcd/ui/screens/mobile_screen.dart';
+import 'package:mcd/ui/screens/tablet_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

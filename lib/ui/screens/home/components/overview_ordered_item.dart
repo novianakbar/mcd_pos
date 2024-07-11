@@ -164,7 +164,7 @@ class OverviewOrderedItems extends StatelessWidget {
                     ),
                     DataCell(
                       SizedBox(
-                        width: 50,
+                        width: 40,
                         child: Text(
                           item['order'],
                           overflow: TextOverflow.visible,
@@ -178,17 +178,21 @@ class OverviewOrderedItems extends StatelessWidget {
                     ),
                     DataCell(
                       SizedBox(
-                        width: 60,
+                        width: 40,
                         child: Text(
                           item['ppu'],
                           overflow: TextOverflow.visible,
                           softWrap: true,
+                          style: blackTextStyle.copyWith(
+                            fontWeight: regular,
+                            fontSize: 12,
+                          ),
                         ),
                       ),
                     ),
                     DataCell(
                       SizedBox(
-                        width: 60,
+                        width: 50,
                         child: Text(
                           item['revenue'],
                           overflow: TextOverflow.visible,

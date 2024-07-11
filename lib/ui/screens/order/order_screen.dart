@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mcd/screens/order/components/order_category_item.dart';
-import 'package:mcd/screens/order/components/order_item.dart';
+import 'package:go_router/go_router.dart';
+import 'package:mcd/ui/screens/order/components/order_category_item.dart';
+import 'package:mcd/ui/screens/order/components/order_item.dart';
 import 'package:mcd/shared/theme.dart';
 
 class OrderScreen extends StatelessWidget {
@@ -127,7 +128,9 @@ class OrderScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(6),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    context.pushNamed('checkout');
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [

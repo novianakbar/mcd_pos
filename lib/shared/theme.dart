@@ -3,7 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 Color whiteColor = const Color(0xffFFFFFF);
 Color blackColor = const Color(0xff000000);
-Color greyColor = const Color(0xffA4A8AE);
+Color greyColor = const Color(0xffB8B8B8);
+Color lightgreyColor = const Color(0xffF4F4F4);
 Color lightBackgroundColor = const Color(0xffFAFAFA);
 Color darkBackgroundColor = const Color(0xff180202);
 // Color primaryColor = const Color(0xffeb8871);

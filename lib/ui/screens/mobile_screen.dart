@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:mcd/screens/home/components/overview_item.dart';
-import 'package:mcd/screens/home/components/overview_ordered_item.dart';
+import 'package:mcd/ui/screens/home/components/overview_item.dart';
+import 'package:mcd/ui/screens/home/components/overview_ordered_item.dart';
 import 'package:mcd/shared/theme.dart';
 
 class MobileScreen extends StatefulWidget {
